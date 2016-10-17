@@ -34,12 +34,12 @@ DEFAULT_EMAIL_SUBJECT = 'Welcome to Gavel!'
 DEFAULT_EMAIL_BODY = '''
 Hi {name},
 
-Welcome to Gavel, the online expo judging system. This email contains your
+Welcome to the Junction 2016 Gavel judging system, the online expo judging system. This email contains your
 magic link to the judging system.
 
 DO NOT SHARE this email with others, as it contains your personal magic link.
 
-To access the system, visit {link}.
+To access the system and start judging, visit junctionjudge.herokuapp.com{link}.
 
 Once you're in, please take the time to read the welcome message and
 instructions before continuing.
