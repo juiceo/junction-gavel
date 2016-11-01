@@ -27,6 +27,12 @@ unless absolutely necessary.**
 
 Gavel makes it really simple for you to submit votes, but please think hard
 before you vote. **Once you make a decision, you can't take it back**.
+
+For the first decision, after you have seen the submission, click **DONE**.
+
+
+Judging criteria: 
+[INSERT JUDGING CRITERIA HERE]
 '''.strip()
 
 DEFAULT_EMAIL_SUBJECT = 'Welcome to Gavel!'
@@ -34,15 +40,21 @@ DEFAULT_EMAIL_SUBJECT = 'Welcome to Gavel!'
 DEFAULT_EMAIL_BODY = '''
 Hi {name},
 
-Welcome to the Junction 2016 Gavel judging system, the online expo judging system. This email contains your
+Welcome to the Junction 2016 Gavel judging system. This email contains your
 magic link to the judging system.
 
 DO NOT SHARE this email with others, as it contains your personal magic link.
 
-To access the system and start judging, visit junctionjudge.herokuapp.com{link}.
+DO NOT OPEN your personal link before you have been given permission to start judging.
+
+To access the system and start judging, visit http://www.junctionjudge.herokuapp.com{link}
 
 Once you're in, please take the time to read the welcome message and
 instructions before continuing.
+
+If you run into any problems, please contact:
+
+Juuso Lappalainen / juuso.lappalainen@aaltoes.com
 '''.strip()
 
 DEFAULT_CLOSED_MESSAGE = '''
