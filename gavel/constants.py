@@ -47,7 +47,7 @@ DO NOT SHARE this email with others, as it contains your personal magic link.
 
 DO NOT OPEN your personal link before you have been given permission to start judging.
 
-To access the system and start judging, visit http://www.junctionjudge.herokuapp.com{link}
+To access the system and start judging, visit http://junctionjudge.herokuapp.com{link}
 
 Once you're in, please take the time to read the welcome message and
 instructions before continuing.
