@@ -1,9 +1,19 @@
-$branding-orange: #ffbc29;
-$branding-turquoise: #4ecdc4;
-$branding-red: #fc5454;
+$branding-orange: #EF4637;
+$branding-turquoise: #35E2DF;
+$branding-red: #EF4637;
 $branding-yellow: #ffe86b;
-$branding-green: #c9d41b;
-$branding-dark: #0b3b4b;
+$branding-green: #35E2DF;
+$branding-dark: #232323;
+
+$junction-snow: #FBFBFB;
+$junction-dark: #232323;
+$junction-turqoise: #35E2DF;
+$junction-vermillion: #ef4637;
+$junction-pink: #EC008B;
+
+$banner-text-color: $junction-snow;
+$banner-background: transparent;
+
 
 $wait-color: $branding-yellow;
 $error-color: $branding-red;
@@ -19,10 +29,10 @@ $positive-color: $branding-green;
 $negative-color: $branding-red;
 $neutral-color: $branding-yellow;
 
-$text-color: #000000;
+$text-color: $junction-snow;
 $link-color: mix($branding-turquoise, black, 50%);
-$light: #fffefa;
-$light-grey: #e8e8e8;
-$dark: $branding-dark;
+$light: $junction-dark;
+$light-grey: black;
+$dark: $junction-dark;
 $heading-font: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $body-font: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;

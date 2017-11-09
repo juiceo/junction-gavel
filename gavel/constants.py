@@ -22,7 +22,7 @@ you'll decide whether it's better or worse than the one you looked at
 **immediately beforehand**.
 
 If at any point, you can't find a particular submission, you can click the
-'Skip' button and you will be assigned a new project. **Please don't skip
+'Skip' button and you will be assigned a new project. **Please don't skip projects
 unless absolutely necessary.**
 
 Gavel makes it really simple for you to submit votes, but please think hard
@@ -40,12 +40,13 @@ DEFAULT_EMAIL_SUBJECT = 'Welcome to Gavel!'
 DEFAULT_EMAIL_BODY = '''
 Hi {name},
 
-Welcome to the Junction 2016 Gavel judging system. This email contains your
+Welcome to the Junction 2017 Gavel judging system. This email contains your
 magic link to the judging system.
 
-DO NOT SHARE this email with others, as it contains your personal magic link.
+Please do not: 
 
-DO NOT OPEN your personal link before you have been given permission to start judging.
+- SHARE this email with others, as it contains your personal magic link.
+- OPEN your personal link before you have been given permission to start judging.
 
 To access the system and start judging, visit http://junctionjudge.herokuapp.com{link}
 
@@ -54,7 +55,9 @@ instructions before continuing.
 
 If you run into any problems, please contact:
 
-Juuso Lappalainen / juuso.lappalainen@aaltoes.com
+Juuso Lappalainen
+juuso.lappalainen@hackjunction.com
++358449727080
 '''.strip()
 
 DEFAULT_CLOSED_MESSAGE = '''

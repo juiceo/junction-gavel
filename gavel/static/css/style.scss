@@ -55,6 +55,8 @@ p {
 input,
 textarea {
   font-family: $body-font;
+  background: black;
+  color: $junction-snow;
 }
 
 input {
@@ -148,7 +150,7 @@ hr {
 }
 
 .item {
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 
 .info {
@@ -165,11 +167,12 @@ hr {
 }
 
 .banner {
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
-  color: $light;
-  background-color: $dark;
+  color: $banner-text-color;
+  background-color: $banner-background;
+  padding-left: 1rem;
 }
 
 .banner-tight {
@@ -179,6 +182,8 @@ hr {
 
 #admin-header {
   background-color: $admin-color;
+  text-align: center;
+  background: black;
 }
 
 #wait-header {
